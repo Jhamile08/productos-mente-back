@@ -1,0 +1,14 @@
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\controller\errors\BadRequestController.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\controller\ProductController.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\model\Product.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\ProductosMenteApplication.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\repository\ProductRepository.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\service\interfaces\CrudService.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\service\interfaces\IProductService.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\service\ProductService.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\errors\BaseErrorResponse.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\errors\ErrorResponse.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\errors\ErrorsResponse.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\excepcions\IdNotFoundException.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\request\ProductRequest.java
+C:\Users\jhami\Downloads\productosMente\productosMente\src\main\java\com\mente\productosMente\utils\dto\response\ProductResponse.java

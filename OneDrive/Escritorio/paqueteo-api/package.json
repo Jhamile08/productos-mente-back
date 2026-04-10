@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@sentry/node": "^10.48.0",
+    "applicationinsights": "^3.14.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/applicationinsights": "^0.20.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
+    "@typescript-eslint/eslint-plugin": "^8.58.1",
+    "@typescript-eslint/parser": "^8.58.1",
+    "eslint": "^10.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.1"
+  }
+}

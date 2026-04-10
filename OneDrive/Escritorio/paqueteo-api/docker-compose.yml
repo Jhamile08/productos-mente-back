@@ -1,0 +1,28 @@
+version: '3'
+services:
+  postgres:
+    container_name: "postgres"
+    image: 'postgres:13.3'
+    shm_size: '256mb'
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+    command: "-p ${POSTGRES_PORT}"
+  paqueteo-api:
+    container_name: "paqueteo-api"
+    depends_on:
+      - postgres
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    restart: always
+    volumes:
+      - .:/home/paqueteo-api
+    tty: true
+    env_file:
+      - .env
+    ports:
+      - "${SERVER_PORT}:${SERVER_PORT}"
+      - "9229:9229"
